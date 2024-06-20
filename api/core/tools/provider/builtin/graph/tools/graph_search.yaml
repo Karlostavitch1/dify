@@ -1,0 +1,19 @@
+identity:
+  name: graph_search
+  author: Karl Lehnert
+  label:
+    en_US: Graph Search
+description:
+  human:
+    en_US: A tool for searching content in MS365 using Microsoft Graph API.
+  llm: A tool for searching content in MS365 using Microsoft Graph API.
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query
+    human_description:
+      en_US: Search query for MS Graph.
+    llm_description: The search query string.
+    form: llm

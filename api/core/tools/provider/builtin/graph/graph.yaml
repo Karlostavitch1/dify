@@ -1,0 +1,32 @@
+identity:
+  author: Karl Lehnert
+  name: graph
+  label:
+    en_US: Graph
+  description:
+    en_US: Microsoft Graph API Integration
+  icon: icon.svg
+
+credentials_for_provider:
+  client_id:
+    type: secret-input
+    required: true
+    label:
+      en_US: Client ID
+  client_secret:
+    type: secret-input
+    required: true
+    label:
+      en_US: Client Secret
+  tenant_id:
+    type: secret-input
+    required: true
+    label:
+      en_US: Tenant ID
+  region:
+    type: text-input
+    required: true
+    label:
+      en_US: Region
+    placeholder:
+      en_US: Please input your region
